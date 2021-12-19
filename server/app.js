@@ -33,7 +33,7 @@ MongoClient.connect('mongodb+srv://jun:1234@cluster0.zjit4.mongodb.net/myFirstDa
 })
 //test/
 app.get('/',(req,res)=>{
-    res.send('안녕하세요 ttmoon app입니다. 제발!!')
+    res.send('안녕하세요 ttmoon app입니다. 제발!!123')
 })
 
 //metadata를 생성해서 DB에 저장하는 메서드를 생성시켜보자.
